@@ -6,7 +6,7 @@
 }
 body{
     user-select: none;
-    background-image: url(r.jpg);
+    background-image: url(\\r.jpg);
 }
 .nav{
     width: 100%;
