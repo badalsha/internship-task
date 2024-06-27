@@ -1,0 +1,172 @@
+.container{
+    height: 900px;
+    width: 100%;
+    user-select: none;
+    display: flex;
+}
+body{
+    user-select: none;
+    background-image: url(/GrapplTech-Community-Built-Web-Components/Hero-Section-Components/BadalShankhdharHeroSectionComponent/sources/Untitled\ design\ \(2\).jpg);
+}
+.nav{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    gap: 50px;
+    justify-content:start;
+    margin-top: -10px;
+    background: linear-gradient(90deg, rgb(249, 35, 22) 0%, rgb(139, 102, 241) 100%);
+    }
+
+a{
+    text-decoration: none;
+    font-weight: 900;
+    font-size: 30px;
+    color: aliceblue;
+}
+
+.logo{
+    text-align: left;
+    margin-left:65px;
+    margin-top:5px;
+    width: 250px;
+    display: flex;
+    background-color: rgb(224, 7, 7);
+    height: 110px;
+    border-radius: 5px;
+}
+#logo-img{
+    mix-blend-mode: multiply;
+    height: 150px;
+}
+h3{
+    font-size: 30px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.pink{
+    height: 100%;
+    background: linear-gradient(to top, rgb(224, 7, 7) 50%, #f6cb2e 50%);
+    width: 70px;
+    margin-left:-10px ;
+}
+.pink1{
+    height: 100%;
+    background: linear-gradient(to bottom, rgb(224, 7, 7) 50%, #f6cb2e 50%);
+    width: 70px;
+    margin-left: 340px;
+    margin-top: -900px;
+}
+.red{
+    height: 100%;
+    background-color: rgb(224, 7, 7);
+    width: 400px;
+    transform: skewX(150deg);
+    z-index: -1;
+    margin-top: -10px;
+
+}
+.left-side{
+    display: flex;
+    width: 40%;
+    height: 100%;
+}
+.body-image{
+    border: 20px solid white;
+    border-radius: 50%;
+    height: 400px;
+    width: 400px;
+    margin-top: 30%;
+    margin-left: -430px;
+    z-index: 1;
+}
+.right-side{
+    width: 40%;
+    margin-left:200px;
+    display: flex;
+    flex-direction: column;
+}
+h1{
+    color: white;
+    font-size: 150px;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    font-weight: 900;
+    font-style: italic;
+      }
+span{
+    color: rgb(224, 7, 7);
+}
+h2{
+    color: white;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+.btn{
+    margin-top: 100px;
+    margin-left: 500px;
+    height: 50px;
+    width: 150px;
+    background-color:white;
+    border-radius: 25px;
+    border: 5px solid rgb(224, 7, 7);
+    font-size: 1rem;
+    font-family: sans-serif;
+    font-weight: 900;
+    cursor: pointer;
+    }
+@media (max-width: 768px) {
+    .logo{
+        margin-left: 0;
+        flex-direction: column;
+        width: 100px;
+    }
+    #logo-img{
+      height: 50px;
+    }
+  h3{
+    margin-top: -10px;
+  }
+  .red{
+    width: 100px;
+    margin-left: -150px;
+  }
+  
+  .pink{
+    width: 35px;
+    background: linear-gradient(to top, rgb(224, 7, 7) 70%, #f6cb2e 30%);
+  }
+  .pink1{
+    width: 35px;
+    margin-left: 95px;
+    background: linear-gradient(to top, #f6cb2e 70%, rgb(224, 7, 7) 30%);
+  }
+  .body-image{
+    border: 15px solid white;
+    height: 150px;
+    width: 150px;
+    margin-left:-20px;
+    margin-top: 150px;
+  }
+  h1{
+    font-size: 40px;
+    font-weight: 900;
+    margin-left: 0px;
+    margin-top: 100px;
+  }
+  h2{
+    font-weight: 300;
+  }
+  .btn{
+    margin-left: 0px;
+    width: 100px;
+    height: 55px;
+  }
+  .right-side{
+    margin-left: 80px;
+  }
+  a{
+    font-size: 28px;
+  }
+}
+
