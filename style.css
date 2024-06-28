@@ -172,6 +172,7 @@ h2{
   .nav {
       gap: 20px;
       justify-content:center;
+      height:30px;
   }
   .container{
     height: 500px;
