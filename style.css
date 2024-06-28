@@ -156,15 +156,16 @@ h2{
     margin-top: 200px;
   }
   h2{
+    font-size: 20px;
     font-weight: 300;
-    margin-left: -100px;
+    margin-left: -50px;
   }
   .btn{
     margin-left: -100px;
     width: 100px;
     height: 55px;
     margin-top: 0;
-    margin-left: 50px;
+    margin-left: 30px;
   }
   .right-side{
     margin-left: 80px;
