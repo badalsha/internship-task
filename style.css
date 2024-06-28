@@ -178,13 +178,14 @@ h2{
   }
   .nav{
     gap: 10px;
+    justify-content: center;
   }
   .container{
     height: 500px;
     overflow: hidden;
   }
   a{
-    font-size: 10px;
+    font-size: 15px;
   }
 }
 @media (min-width: 769px) and (max-width:992px){
