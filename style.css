@@ -128,38 +128,42 @@ h2{
   }
   .red{
     width: 100px;
-    margin-left: -150px;
+    margin-left: -50px ;
+    height: 500px;
   }
   
   .pink{
     width: 35px;
-    background: linear-gradient(to top, rgb(224, 7, 7) 70%, #f6cb2e 30%);
+    background: linear-gradient(to top, rgb(224, 7, 7) 60%, #f6cb2e 40%);
   }
   .pink1{
     width: 35px;
     margin-left: 95px;
-    background: linear-gradient(to top, #f6cb2e 70%, rgb(224, 7, 7) 30%);
+    margin-top: -500px;
+    background: linear-gradient(to top, #f6cb2e 50%, rgb(224, 7, 7) 50%);
   }
   .body-image{
     border: 15px solid white;
     height: 150px;
     width: 150px;
-    margin-left:-20px;
+    margin-left:-120px;
     margin-top: 150px;
   }
   h1{
     font-size: 40px;
     font-weight: 900;
-    margin-left: 0px;
+    margin-left: -50px;
     margin-top: 200px;
   }
   h2{
     font-weight: 300;
+    margin-left: -100px;
   }
   .btn{
-    margin-left: 0px;
+    margin-left: -100px;
     width: 100px;
     height: 55px;
+    margin-top: 0;
   }
   .right-side{
     margin-left: 80px;
@@ -167,5 +171,8 @@ h2{
   a{
     font-size: 22px;
   }
+  .container{
+    height: 500px;
+    overflow: hidden;
+  }
 }
-
