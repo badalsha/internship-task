@@ -151,34 +151,89 @@ h2{
   }
   h1{
     font-size: 28px;
-    font-weight: 900;
+    font-weight: 700;
     margin-left: -20px;
     margin-top: 200px;
   }
   h2{
     font-weight: 300;
-    margin-left: -50px;
+    margin-left: -100px;
   }
   .btn{
     margin-left: -100px;
     width: 100px;
     height: 55px;
     margin-top: 0;
-    margin-left: 20px;
+    margin-left: 50px;
   }
   .right-side{
     margin-left: 80px;
   }
-  .nav {
-      gap: 20px;
-      justify-content:center;
-      height:30px;
+  .nav{
+    gap: 10px;
   }
   .container{
     height: 500px;
     overflow: hidden;
   }
-     a{
-    font-size: 18px;
+  a{
+    font-size: 10px;
   }
+}
+@media (min-width: 769px) and (max-width:992px){
+   .red{
+    margin-left: -110px;
+    width: 200px;
+   }
+   .pink1{
+    margin-left: 120px;
+   }
+   .body-image{
+    margin-left:-220px;
+    height: 250px;
+    margin-top: 250px;
+   }
+   h1{
+    font-size: 60px;
+    margin-top: 300px;
+    margin-left: -50px;
+   }
+   h2{
+    margin-left: -100px;
+   }
+   .btn{
+    margin-top: 0;
+    margin-left: 10px;
+   }
+  
+}
+@media (min-width: 993px) and (max-width:1500px){
+  .red{
+    width: 300px;
+    margin-left: -110px;
+   }
+   .pink1{
+    margin-left: 250px;
+   }
+   .body-image{
+    height: 300px;
+    width: 300px;
+    margin-left: -300px;
+    margin-top: 250px;
+   }
+   .pink{
+    background: linear-gradient(to top, rgb(224, 7, 7) 60%, #f6cb2e 40%);
+   }
+   h1{
+    font-size: 80px;
+    margin-top: 300px;
+    margin-left: -10px;
+   }
+   h2{
+    margin-left: -100px;
+   }
+   .btn{
+    margin-top: 0;
+    margin-left: 200px;
+   }
 }
