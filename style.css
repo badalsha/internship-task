@@ -4,6 +4,12 @@
     user-select: none;
     display: flex;
     background-image: url(r.jpg);
+     background-repeat:no-repeat;
+-webkit-background-size:cover;
+-moz-background-size:cover;
+-o-background-size:cover;
+background-size:cover;
+background-position:center;
 }
 body{
     user-select: none;
